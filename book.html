@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Book a Property Inspection</h2>
+        <p>Fill in the form below to schedule an inspection of your preferred property. Our agent will contact you soon.</p>
+    <form>
+
+       <label for="fName">1.full name<span>*</span></label><br>
+        <input type="text" id="fName" name="fName" placeholder="Enter your Full name" required><br><br>
+
+        <label for="eAdd">2.Email address<span>*</span></label><br>
+        <input type="email" id="eAdd" name="eAdd" placeholder="Enter your email address" required><br><br>
+
+      <label for="pnumber">3.Phone Number<span>*</span></label><br>
+        <input type="tel" id="pnumber" name="pnumber" placeholder="0800000000" required><br><br>
+        
+       <label for="property">4.Property Type<span>*</span></label><br>
+        <select name="property" id="property">
+            <option value="type"><b>select property type</b></option>
+            <option value="type"><b>select property type</b></option>
+            <option value="type"><b>select property type</b></option>
+        </select> <br><br>
+        
+        <label for="pLocation">5.Preferred Location<span>*</span></label> <br>
+        <input type="text" id="pLocation" name="pLocation" placeholder="Enter preferred location" required><br><br>
+
+       <label for="iDate">6.Inspection Date<span>*</span></label><br>
+        <input type="date" id="iDate" name="iDate" required><br><br>
+
+        <label for="pLocation">7.Inspection Date<span>*</span></label><br>
+        <input type="time" id="pLocation" name="pLocation" required><br><br>
+
+        <label for="bRange">8.Budget Range(₦)<span>*</span></label><br>
+        <input type="text" id="bRange" name="bRange" placeholder="Min amount"> - <input type="text" id="bRange" name="bRange" placeholder="Max amount"> <br><br>
+         
+        <label for="bRange">9.How do hear about us?</label><br>
+        <select name="contact" id="contact">
+            <option value=""> select an option</option>
+            <option value="">Facebookk</option>
+            <option value="">Facebookk</option>
+        </select><br><br>
+
+        <label for="message">10.Additonal message</label><br>
+        <textarea name="" id="">Type your message here..... </textarea><br><br>
+
+          <label for="fileUpload">10.Upload ID(Optional)</label><br>
+          <input type="file" name="fileUpload" id="fileUpload" ><br><br>
+
+          <button type="submit">Book now</button>
+
+          </form>
+</body>
+</html>
