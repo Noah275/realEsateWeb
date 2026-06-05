@@ -4,56 +4,143 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    
+    <nav>
+        <div class="logo">
+       <h1>Noark <span>Homes</span></h1>
+        <p>Helping families find their dream <strong>Homes</strong></p>
+        </div>
+        
+        <a href="index.html">home</a>
+    </nav>
 
+    <div class="bookingWrapper">
+
+
+    <div class="bookingForm">
     <h2>Book a Property Inspection</h2>
         <p>Fill in the form below to schedule an inspection of your preferred property. Our agent will contact you soon.</p>
     <form>
-
-       <label for="fName">1.full name<span>*</span></label><br>
-        <input type="text" id="fName" name="fName" placeholder="Enter your Full name" required><br><br>
-
-        <label for="eAdd">2.Email address<span>*</span></label><br>
-        <input type="email" id="eAdd" name="eAdd" placeholder="Enter your email address" required><br><br>
-
-      <label for="pnumber">3.Phone Number<span>*</span></label><br>
-        <input type="tel" id="pnumber" name="pnumber" placeholder="0800000000" required><br><br>
         
-       <label for="property">4.Property Type<span>*</span></label><br>
+    <div class="formItems1">
+       <label for="fName">1. Full Name<span>*</span></label><br>
+        <input type="text" id="fName" name="fName" placeholder="Enter your full name" required><br><br>
+        </div>
+
+
+    <div class="formItems1">
+        <label for="eAdd">2. Email Address<span>*</span></label><br>
+        <input type="email" id="eAdd" name="eAdd" placeholder="Enter your email address" required><br><br>
+    </div>
+
+    <div class="formItems1">
+      <label for="pnumber">3. Phone Number<span>*</span></label><br>
+        <input type="tel" id="pnumber" name="pnumber" placeholder="0800000000" required><br><br>
+    </div> 
+
+    <div class="formItems2">
+       <label for="property">4. Property Type<span>*</span></label><br>
         <select name="property" id="property">
             <option value="type"><b>select property type</b></option>
             <option value="type"><b>select property type</b></option>
             <option value="type"><b>select property type</b></option>
         </select> <br><br>
+    </div>
         
-        <label for="pLocation">5.Preferred Location<span>*</span></label> <br>
+       <div class="formItems1">
+        <label for="pLocation">5. Preferred Location<span>*</span></label> <br>
         <input type="text" id="pLocation" name="pLocation" placeholder="Enter preferred location" required><br><br>
-
-       <label for="iDate">6.Inspection Date<span>*</span></label><br>
+       </div>
+        
+       <div class="formItems3">
+       <label for="iDate">6. Inspection Date<span>*</span></label><br>
         <input type="date" id="iDate" name="iDate" required><br><br>
-
-        <label for="iTime>7.Inspection Time<span>*</span></label><br>
-        <input type="time" id="iTime" name="iTime" required><br><br>
-
-        <label for="bRange">8.Budget Range(₦)<span>*</span></label><br>
-        <input type="text" id="bRange" name="bRange" placeholder="Min amount"> - <input type="text" id="bRange" name="bRange" placeholder="Max amount"> <br><br>
+        </div>
+        
+        <div class="formItems3">
+        <label for="iTime">7. Inspection Time <span>*</span></label> <br>
+        <input type="time" id="iTime" name="iTime" required> <br><br>
+        </div>
          
-        <label for="contact">9.How do hear about us?</label><br>
+        <div class="formItems4">
+        <label for="bRange">8. Budget Range(₦)<span>*</span></label><br>
+        <input type="text" id="bRange" name="bRange" placeholder="Min amount"> - <input type="text" id="bRange" name="bRange" placeholder="Max amount"> <br><br>
+        </div>
+
+        <div class="formItems2">
+        <label for="contact">9. How do hear about us?</label><br>
         <select name="contact" id="contact">
             <option value=""> select an option</option>
             <option value="">Facebookk</option>
             <option value="">Facebookk</option>
         </select><br><br>
+        </div>
+          
+        <div class="formItems5">
+            <label for="message">10. Additonal message</label><br>
+            <textarea name="message" id="message" placeholder="Type your message here..... "></textarea><br><br>
+        </div>
 
-        <label for="message">10.Additonal message</label><br>
-        <textarea name="" id="">Type your message here..... </textarea><br><br>
-
-          <label for="fileUpload">10.Upload ID(Optional)</label><br>
-          <input type="file" name="fileUpload" id="fileUpload" ><br><br>
+        <div class="formItems6">
+            <label for="fileUpload">11. Upload ID(Optional)</label><br>
+            <input type="file" name="fileUpload" id="fileUpload" ><br><br>
+        </div>
 
           <button type="submit">Book Inspection now</button>
+        </form>
+    </div>
 
-          </form>
+
+
+         <div class="bookingLeft">
+            <div class="bookingImg">
+                <img src="image/housebook.JPG" alt="house">
+            </div>
+
+           <div class="bookingDetails">
+            <div class="bookingDetails_Items">
+                <h3>Why Book an Inspection?</h3>
+
+                <div class="bookingDetails_Item">
+                        <span><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                    <div class="bookDetails_word">
+                        <h4>Choose a convenient date</h4>
+                        <p>Pick a date and time that works for you.</p>
+                    </div>
+                </div>
+
+                <div class="bookingDetails_Item">
+                    <span><i class="fa fa-user" aria-hidden="true"></i></span>
+                    <div class="bookDetails_word">
+                        <h4>Meet our expert agents</h4>
+                        <p>Our agents will guide you through the property.</p>
+                    </div>
+                </div>
+
+                <div class="bookingDetails_Item">
+                     <span><i class="fa fa-home" aria-hidden="true"></i></span>
+                    <div class="bookDetails_word">
+                        <h4>Make informed decisions</h4>
+                        <p>Get all the information you need before you buy.</p>
+                    </div>
+                </div>
+
+                <div class="bookingDetails_Item">
+                      <span><i class="fa fa-shield" aria-hidden="true"></i></span>
+                    <div class="bookDetails_word">
+                        <h4>Safe & Secure</h4>
+                        <p>Your information is protected with us</p>
+                    </div>
+                </div>
+            </div>
+           </div>
+
+         </div>
+
+        </div>
 </body>
 </html>

@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.genlayout{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.logoBody{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem auto;
+}
+
+.logoContent > h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #1f2937;
+}
+
+.logoContent > h1 > span{
+    color: #d4a017;
+}
+
+.logoContent > p{
+    font-size: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.logoContent > p > strong{
+        color: #d4a017;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navCenter{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.navCenter > a{
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #1f2937;
+    font-weight: 500;
+}
+
+.navCenter > a:nth-child(1){
+     color: #d4a017;
+
+}
+
+.navCenter > a:hover{
+    border-bottom: 1px solid #0a2342;
+}
+
+.navEnd{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.navEnd > a{
+    border: 1px solid;
+    border-radius: 7px;
+    padding: 0.7rem;
+    background-color: #0a2342;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+
+
+
+
+
+.heroImage{
+    background-image: url(image/home.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh; 
+}
+
+.heroCont{
+    height: 100%;
+    padding-top: 13rem ;
+}
+
+.heroItems{
+    width: 400px;
+    margin-bottom: 1.5rem;
+}
+.heroItems > h4{
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    color: #0a2342;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.heroItems > h2{
+    text-transform: capitalize;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 50px;
+    padding :0.5rem 0;
+}
+
+.heroItems > h2 > span{ 
+    color: #d4a017;
+}
+
+.heroItems > p{
+    line-height: 1.5rem;
+    width: 270px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.heroBooking{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.heroBooking > button{
+    border: none;
+    padding:0.5rem 1.5rem;
+    background-color: #d4a017;
+    color: #0a2342;
+    text-transform: capitalize;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.heroBooking > a{
+    border: 1px solid #d4a017;
+    border-radius: 5px;
+    padding:0.5rem 1.5rem;
+    background-color: transparent;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+
+/* ABOUT SECTION */
+main{
+    margin-block: 2rem;
+}
+.about_Wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.aboutImg{
+    width: 1000px;
+    height: 300px;
+    border-radius: 5px;
+}
+.aboutImg > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.aboutContent > h4{
+    text-transform: uppercase;
+    color: #d4a017;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.aboutContent > h2{
+    text-transform: capitalize;
+    color:#0a2342;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+.aboutContent > .line{
+    border-bottom: 1.5px solid #d4a017;
+    width: 7%;
+    margin-bottom: 0.8rem;
+}
+
+.aboutContent > .firstP{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #0a2342;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    opacity: .7;
+}
+.aboutContent > p{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #0a2342;
+    font-weight: 500;
+    opacity: .7;
+    line-height: 1.5rem;
+}
+
+.aboutContent > button{
+    font-family: "Roboto", sans-serif;
+    margin-top: 1.5rem;
+    border: none;
+    background-color: #0a2342;
+    color: #ffffff;
+    padding: 0.7rem 1.3rem;
+    border-radius: 5px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+
+}
+
+.aboutContent > button > span{
+    font-size: 10px;
+
+}
+
+
+
+
+
+
+
+
+.endSect_Cont{
+    background-color:#1f2937;
+}
+
+.endSect_Wrap{
+    display: flex;
+     align-items: center;
+    justify-content: center; 
+    gap: 5rem;
+    padding-block: 1.5rem;
+}
+.endSect{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.endSect > i{
+    color: #ffcd4f;
+    font-size: 50px;
+}
+
+.endText{
+    width: 370px;
+}
+
+.endText > h3{
+    color: #ffffff;
+     font-family: "Roboto", sans-serif;
+     font-size: 20px;
+     margin-bottom: .7rem;
+
+}
+.endText > p{
+    color: #ffffff;
+     font-family: "Roboto", sans-serif;
+     opacity: 0.7;
+     font-size: 14px;
+}
+
+.endSect_Sub > a{
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    gap: .7rem;
+    background-color: #d4a017;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    color: #0a2342;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+         font-family: "Roboto", sans-serif;
+    
+
+}
+
+.endSect_Sub > a > span{
+    font-size: 10px;
+}
+
+/* Footer styling */
+footer{
+    background-color: #0a2342;
+}
+.foot_Wrap{
+    display: flex;
+    padding-block: 1rem;
+    justify-content: space-between;
+}
+
+.foot_Content_1{
+    width: 250px;
+
+}
+.foot_Content_1 > h1{
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+}
+.foot_Content_1 > h1 > span{
+    color: #d4a017;
+}
+
+.foot_Content_1 > p{
+    color: #ffffff;
+    font-size: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.foot_Content_1 > p > strong{
+    color: #d4a017;
+}
+
+.foot_Content_1 > .footWord{
+    line-height: 1.2rem;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    opacity: .7;
+    font-weight: 500;
+}
+
+.foot_Content_Logo{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.foot_Content_Logo > i{
+    color: #ffffff;
+    width:30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #1f2937;
+}
+
+.foot_Links > h3{
+      color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 1.2rem;
+}
+
+.foot_LinksItems{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.foot_LinksItems > a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: 500;
+    opacity: .8;
+}
+
+.foot_Contact > h3{
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 1.2rem;
+
+}
+
+.foot_Contact_Items{
+    display: flex;
+    gap: .5rem;
+    margin-bottom: .6rem;
+}
+
+.foot_Contact_Items > span{
+    color: #d4a017;
+}
+
+.foot_Contact_Items > p{
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+     font-weight: 500;
+    opacity: .8;
+    font-size: 13px;
+} 
+
+.foot_Hours > h3{
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 1.2rem;
+}
+
+.foot_HoursItems{
+    margin-bottom: .6rem;
+    line-height: 1.2rem;
+}
+
+.foot_HoursItems > p:nth-child(1){
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+     font-size: 13px;
+
+}
+.foot_HoursItems > p{
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+     font-size: 13px;
+
+}
+
+.footLine{
+    border-left: 1px solid #0f3462; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer > p{
+    text-align: center;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+    font-size: 13px;
+    padding-bottom: 1rem;
+    font-weight: 500;
+}

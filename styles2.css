@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+    background-color: #0a2342;
+    padding: 1rem 3.3rem;
+}
+
+.logo > h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.logo > h1 > span{
+    color: #d4a017;
+}
+
+.logo > p {
+    font-family: "Roboto", sans-serif;
+    color: #d4a017;
+    font-size: 15px;
+}
+
+nav > a{
+    text-transform: capitalize;
+    border: 1px solid;
+    background-color: #d4a017;
+    color: #0a2342;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.bookingWrapper{
+    display: flex;
+    margin: 2rem auto ;
+    width: 900px;
+    justify-content: space-between;
+}
+
+.bookingForm{ 
+    width: 450px;
+}
+
+.bookingForm > h2{
+    font-family: "Roboto", sans-serif;
+    color: #1f2937;
+    font-size: 30px;
+    font-weight:500 ;
+    width: 400px;
+    margin-bottom:0.5rem ;
+   
+}
+
+.bookingForm > p{
+    font-family: "Roboto", sans-serif;
+    color: #1f2937;
+    font-size: 15px;
+    font-weight:400 ;
+    opacity: 0.8;
+    width: 400px;
+    margin-bottom: 1.5rem;
+}
+
+form{
+    width: 100%;
+}
+
+.formItems1 > label{
+    font-family: "Roboto", sans-serif;
+    color: #1f2937;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.formItems1 > label > span{
+    color: darkred;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+.formItems1 > input{
+    width: 100%;
+    padding: 0.7rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 0.5rem;
+    outline: none;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+
+.formItems2 > label{
+    font-family: "Roboto", sans-serif;
+    color: #1f2937;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.formItems2 > label > span{
+    color: darkred;
+    font-size: 17px;
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+.formItems2 > select{
+    width: 100%;
+    padding: 0.7rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 0.5rem;
+    outline: none;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.formItems3 > label{
+    font-family: "Roboto", sans-serif;
+    color: #1f2937;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.formItems3 > label > span{
+    color: darkred;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+.formItems3 > input{
+    width: 100%;
+    padding: 0.7rem;
+    font-family: "Roboto", sans-serif;
+    color: #121926;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 0.5rem;
+    outline: none;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.formItems4 > label{
+    font-family: "Roboto", sans-serif;
+    color: #1f2937;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.formItems4 > label > span{
+    color: darkred;
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+.formItems4 > input{
+    width: 48.5%;
+    padding: 0.7rem;
+    font-family: "Roboto", sans-serif;
+    color: #121926;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 0.5rem;
+    outline: none;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.formItems5 > label{
+    font-family: "Roboto", sans-serif;
+    color: #1f2937;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.formItems5  > textarea{
+    width: 100%;
+    padding: 0.7rem;
+    height: 5rem;
+    outline: none;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.formItems6 > label{
+    font-family: "Roboto", sans-serif;
+    color: #1f2937;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.formItems6> input{
+    width: 100%;
+    padding: 0.5rem;
+    font-family: "Roboto", sans-serif;
+    color: #121926;
+    font-weight: 400;
+    font-size: 17px;
+    margin-top: 0.5rem;
+    border: .5px solid;
+    border-radius: 3px;
+}
+
+button{
+    background-color: #121926;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+
+}
+
+
+.bookingLeft{
+    width: 400px;
+}
+
+.bookingImg{
+    width: 400px;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+
+}
+
+.bookingImg > img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.bookingDetails{
+    border-radius: 10px;
+    background-color: #0a2342;
+    width: 400px;
+}
+
+
+.bookingDetails_Items{
+    padding: 1.5rem;
+}
+
+.bookingDetails_Items > h3{
+    font-family: "Roboto", sans-serif;
+    color: #d4a017;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+.bookingDetails_Item{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.bookingDetails_Item > span {
+    border-radius: 100%;
+    background-color: #284467;
+}
+
+.bookingDetails_Item > span > i{
+    color: #d4a017;
+    font-size: 25px;
+    padding: 0.7rem;
+    
+}
+
+.bookDetails_word{
+    line-height: 1.5rem;
+}
+
+.bookDetails_word > h4{
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+
+}
+.bookDetails_word > p{
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+
+
+
+
+
+
