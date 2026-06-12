@@ -5,14 +5,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 nav{
+      background-color: #0a2342;
+
+}
+.navCon{
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 1000px;
-    background-color: #0a2342;
     padding: 1rem 3.3rem;
 }
 
@@ -33,9 +35,8 @@ nav{
     font-size: 15px;
 }
 
-nav > a{
+.navCon > a{
     text-transform: capitalize;
-    border: 1px solid;
     background-color: #d4a017;
     color: #0a2342;
     text-decoration: none;
@@ -63,7 +64,6 @@ nav > a{
     font-weight:500 ;
     width: 400px;
     margin-bottom:0.5rem ;
-   
 }
 
 .bookingForm > p{
@@ -306,6 +306,71 @@ button{
     font-size: 12px;
     opacity: 0.6;
 }
+/* BOOKING RESPONSIVENESS */
+@media(min-width:320px) and (max-width:500px){
+    .navCon{
+        width: calc(100% - 40px);
+        padding: 1rem 0;
+       gap: 5rem;
+    }
+
+    .logo > h1{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.logo > h1 > span{
+    color: #d4a017;
+}
+
+.logo > p {
+    font-size: 13px;
+}
+
+.navCon > a{
+    font-size: 17px;
+}
+
+.bookingWrapper{
+    width: calc(100% - 40px);
+}
+
+.bookingForm{ 
+    width: 100%;
+    
+}
+
+.bookingForm > h2{
+    font-size: 25px;
+    font-weight:500 ;
+    width: 100%;
+}
+
+.bookingForm > p{
+    font-family: "Roboto", sans-serif;
+    color: #1f2937;
+    font-size: 17px;
+    font-weight:400 ;
+    opacity: 0.8;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.formItems4 > input{
+    width: 47.5%;
+}
+
+button{
+    width: 100%;
+}
+
+.bookingLeft{
+    display: none;
+    gap: 0;
+}
+
+}
+@media(min-width:500px) and (max-width:800px){}
 
 
 
