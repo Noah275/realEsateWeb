@@ -9,25 +9,30 @@
 
 </head>
 <body>
-    <header>
+    <header id="home">
         <div class="logoBody genlayout">
         <div class="logoContent">
         <h1>Noark <span>Homes</span></h1>
         <p>Helping families find their dream <strong>Homes</strong></p>
         </div>
+        <label for="toggle" class="hamburger">&#9776;</label>
+             <input type="checkbox" id="toggle" />
+
         <nav>
+            <div class="navWrapper">
             <div class="navCenter">
-            <a href="">Home</a>
-            <a href="">About us</a>
-            <a href="">Services</a>
+            <a href="#home">Home</a>
+            <a href="#about">About us</a>
+            <a href="#service">Services</a>
             <a href="">Agent</a>
-            <a href="">Testimonials</a>
-            <a href="">Contct</a>
+            <a href="#testimony">Testimonials</a>
+            <a href="#conatct">Contct</a>
             </div>
 
             <div class="navEnd">
             <a href="book.html" target="_blank">Book Inspection</a>
             <a href="https://form.jotform.com/261483168642058" target="_blank">Book Inspection 2</a>
+            </div>
             </div>
         </nav> 
         </div>
@@ -49,7 +54,9 @@
     </div>
     </header>
 
-    <main>
+        
+    <main id="about">
+        <!-- ABOUT SECT -->
         <div class="about_Wrapper genlayout">
             <div class="aboutImg">
              <img src="image/house interior.JPG" alt="interior">
@@ -70,38 +77,73 @@
         </div>
     </div>
    
-
-       <div>
+           <!-- SPECIALIZE SECT -->
+       <div class="special_Wrapper genlayout">
         <h2>what we specialize in</h2>
         <div class="line1"></div>
-        <ol>
-            <li>Residentail properties</li>
-            <li>land sales</li>
-            <li>commercai properties</li>
-            <li>property management</li>
-        </ol>
+          
+        <div class="special_Cont">
+            <div class="special_Box">
+                <i class="fa fa-home"></i>
+                <h4>residential properties </h4>
+                <p>Luxury homes, apartments, duplexes, and family residences.</p>
+            </div>
+            <div class="special_Box">
+                <i class="fa fa-building"></i>
+                <h4>commercial properties</h4>
+                <p>Office spaces, shopping complexes, warehouses, and business facilities.</p>
+            </div>
+            <div class="special_Box">
+              <i class="fa fa-line-chart"></i>
+                <h4>property investment</h4>
+                <p>Investment opportunities with strong growth potential and attractive returns.</p>
+            </div>
+            <div class="special_Box">
+                <i class="fa fa-users"></i>
+                <h4>property management</h4>
+                <p>Professional management services for landlords and investors.</p>
+            </div>
         </div>
-         
-        <div>
-        <h2>our mission & vision</h2>
-        <div class="line1"></div>
-
-        <div class="mission_Content">
-            <div class="logo_mission"></div>
-            <h3>our mission</h3>
-        <p>To provide safe, verified, and affordable properties for every client</p>
+        
         </div>
           
-        <div class="mission_Content">
-             <div class="logo_mission"></div>
-        <h3>our vision</h3>
-        <p>To  become Nigeeria's most trusted real estate brand</p>
+         <!-- MISSON & VISION SECT -->
+          <div class="Container_Mv">
+        <div class="wrapper_Mv genlayout">
+        <h2>our mission & vision</h2>
+        <div class="line1"></div>
+          
+
+        <div class="mv_Wrappper">
+
+  
+        <div class="mv_Content">
+         <i class="fa fa-bullseye"></i>
+            <div class="mv_Items">
+            <h3>our mission</h3>
+        <p>To provide exceptional real estate services through integrity, professinalism, innovation, and customer satisfaction while
+            helping clients make informed property decisions.</p>
+            </div>
         </div>
 
+        <div class="mv_line"></div>
+          
+        <div class="mv_Content">
+             <i class="fa fa-eye"></i>
+             <div class="mv_Items">
+        <h3>our vision</h3>
+        <p>To  become the most trusted and preferred real estate company in Nigeria and beyond, recognized for excellence, reliability, and sustainable
+            property solutions.</p>
+            </div>
+        </div>
 
-        <section>
+        </div>
+
+        </div>
+        </div>
+
             <!-- table tag -->
-            <table>
+            <!-- <table>
                 <caption><b>featured <mark>properties</mark></b></caption>
                 <thead>
                     <tr>
@@ -138,51 +180,138 @@
                         <td>10</td>
                     </tr>
                 </tbody>
-                
-            </table>
-        </section>
+                </table> -->
 
+                  <!-- /* FEATURED PROPERTIES */ -->
+                    <div class="featured_Wrapper genlayout">
+                    <h2>featured properties</h2>
+                    <div class="line1"></div>
 
-        <section>
-            <div class="servic_Wrapper">
-                <h1>our services</h1>
+                    <div class="featured_Cont">
+                        <div class="featured_Box">
+                            <img src="image/duplex.JPG" alt="building">
+
+                            <div class="featured_Words">
+                                <h3>Luxury 5 bedroom duplex</h3>
+                                <p><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>lekki, lagos</p>
+                                <h2>#250,000,000</h2>
+                           
+
+                            <div class="featured_Items">
+                                <p><span><i class="fa fa-bed" aria-hidden="true"></i></span> 5 Beds</p>
+                                <hr>
+                                <p><span><i class="fa fa-bath" aria-hidden="true"></i></span> 6 Baths</p>
+                                <hr>
+                                <p><span><i class="fa fa-plus-square-o" aria-hidden="true"></i></span> 450 sqm</p>
+                            </div>
+                             </div>
+                        </div>
+
+                        <div class="featured_Box">
+                            <img src="image/terace.JPG" alt="building">
+
+                            <div class="featured_Words">
+                                <h3>modern 4 bedroom terrace</h3>
+                                <p><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>ikoyi, lagos</p>
+                                <h2>#180,000,000</h2>
+                           
+
+                            <div class="featured_Items">
+                                <p><span><i class="fa fa-bed" aria-hidden="true"></i></span> 4 Beds</p>
+                                <hr>
+                                <p><span><i class="fa fa-bath" aria-hidden="true"></i></span> 5 Baths</p>
+                                <hr>
+                                <p><span><i class="fa fa-plus-square-o" aria-hidden="true"></i></span> 300 sqm</p>
+                            </div>
+                             </div>
+                        </div>
+
+                        <div class="featured_Box">
+                            <img src="image/apartment.JPG" alt="building">
+
+                            <div class="featured_Words">
+                                <h3>executive apartment complex</h3>
+                                <p><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>victoria island, lagos</p>
+                                <h2>#350,000,000</h2>
+                           
+
+                            <div class="featured_Items">
+                                <p><span><i class="fa fa-bed" aria-hidden="true"></i></span> 10 Units</p>
+                                <hr>
+                                <p><span><i class="fa fa-bath" aria-hidden="true"></i></span> 10 Baths</p>
+                                <hr>
+                                <p><span><i class="fa fa-plus-square-o" aria-hidden="true"></i></span> 1000 sqm</p>
+                            </div>
+                             </div>
+                        </div>
+
+                        <div class="featured_Box">
+                            <img src="image/commercial.JPG" alt="building">
+
+                            <div class="featured_Words">
+                                <h3>premium commercial building</h3>
+                                <p><span><i class="fa fa-map-marker" aria-hidden="true"></i></span>abuja, FCT</p>
+                                <h2>#500,000,000</h2>
+                           
+
+                            <div class="featured_Items">
+                                <p><span><i class="fa fa-bed" aria-hidden="true"></i></span> 20 Offices</p>
+                                <hr>
+                                <p><span><i class="fa fa-bath" aria-hidden="true"></i></span> 10 Baths</p>
+                                <hr>
+                                <p><span><i class="fa fa-plus-square-o" aria-hidden="true"></i></span> 2800 sqm</p>
+                            </div>
+                             </div>
+                        </div>
+                    </div>
+                     
+                    <div class="featured_Btn">
+                    <button> view all properties <span><i class="fa fa-chevron-right" aria-hidden="true"></i></span></button>
+                </div>
+
+                </div>
+
+            <!-- SERVICE SECT -->
+        <section class="service_Bg" id="service">
+            <div class="service_Wrapper genlayout">
+                <h2>our services</h2>
                 <div class="line1"></div>
 
                 <div class="service_Content">
                     <div class="service_Box">
-                        <img src="" alt="">
-                        <h4></h4>
-                        <p></p>
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <h4>property sales</h4>
+                        <p>Helping clients buy and sell residential and commercial properties.</p>
                     </div>
 
                     <div class="service_Box">
-                        <img src="" alt="">
-                        <h4></h4>
-                        <p></p>
+                        <i class="fa fa-key" aria-hidden="true"></i>
+                        <h4>property rentals</h4>
+                        <p>Connecting tenants with quality rental properties.</p>
                     </div>
 
                     <div class="service_Box">
-                        <img src="" alt="">
-                        <h4></h4>
-                        <p></p>
+                        <i class="fa fa-building" aria-hidden="true"></i>
+                        <h4>property management</h4>
+                        <p>Maintenance, tenants management, and property supervision.</p>
                     </div>
 
                     <div class="service_Box">
-                        <img src="" alt="">
-                        <h4></h4>
-                        <p></p>
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <h4>real estate consultation</h4>
+                        <p>Professional advice on property acquisition and investment.</p>
                     </div>
 
                     <div class="service_Box">
-                        <img src="" alt="">
-                        <h4></h4>
-                        <p></p>
+                        <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                        <h4>property valuation</h4>
+                        <p>Accurate property assessment and market analysis</p>
                     </div>
 
                     <div class="service_Box">
-                        <img src="" alt="">
-                        <h4></h4>
-                        <p></p>
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <h4>land acquisition</h4>
+                        <p>Secure and verified land purchase opportunities</p>
                     </div>
 
                 </div>
@@ -190,81 +319,68 @@
             </div>
         </section>
 
-
-        <section>
-            <div class="testimony_Wrapper">
+            <!-- TESTIMONY SECT -->
+        <section class="testimony_Wrapper" id="testimony">
+                <div class="testimony_Container genlayout">
 
                 <div class="tesimony_Box1">
                     <div class="tesimony_Box1_Content">
                         <h3>why choose noark homes?</h3>
+                        <div class="line2"></div>
 
-                        <p> <span></span> verified properties</p>
-                       <p> <span></span> experienced agents</p>
-                      <p> <span></span> transparent transactions</p>
-                       <p> <span></span> affordable property option</p>
-                     <p> <span></span>excellent customer service</p>
-                     <p> <span></span>secure documentation</p>
+                        <p> <span><i class="fa fa-check-circle"></i></span>verified properties</p>
+                       <p> <span><i class="fa fa-check-circle"></i></span>experienced agents</p>
+                      <p> <span><i class="fa fa-check-circle"></i></span>transparent transactions</p>
+                       <p> <span><i class="fa fa-check-circle"></i></span>affordable property option</p>
+                     <p> <span><i class="fa fa-check-circle"></i></span>excellent customer service</p>
+                     <p> <span><i class="fa fa-check-circle"></i></span>secure documentation</p>
                     </div>
                      
                     <div class="tesimony_Box1_Img">
-                        <img src="" alt="">
+                        <img src="image/interior.JPG" alt="sitting room">
                     </div>
                 </div>
 
                 <div class="testimony_Box2">
                     <div class="testimony_Box2_Content">
                         <h2>what our clients say</h2>
+                        <div class="line1"></div>
                         
                         <div class="testimony_Box2_Slide">
+                            <i class="fa fa-chevron-left" aria-hidden="true"></i>
 
-                           <div class="testimony_Box2_Slide Box">
-                            <p></p>
+                              <div class="testimont_Box2_Cont">
+
+                           <div class="testimony_Box2_Slide_Box">
+                            <img src="image/rating.png" alt="rating" width="100px">
+                            <p>"Noark Homes helped me purchase my first property in lekki. The entire process was smooth and 
+                                professional."</p>
                             <div class="imgText">
-                                <img src="" alt="">
-                                <p></p>
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <p>Chinedu A.</p>
                             </div>
                            </div>
 
-                           <div class="testimony_Box2_Slide Box">
-                            <p></p>
+                           <div class="testimony_Box2_Slide_Box">
+                            <img src="image/rating.png" alt="rating">
+                            <p>"Their team guided me through every stage of my investment purchase. Highly recommended."</p>
                             <div class="imgText">
-                                <img src="" alt="">
-                                <p></p>
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <p>Sarah O.</p>
                             </div>
                            </div>
 
-                           <div class="testimony_Box2_Slide Box">
-                            <p></p>
+                           <div class="testimony_Box2_Slide_Box">
+                            <img src="image/rating.png" alt="rating">
+                            <p>"Excellent customer service and genuine property listings."</p>
                             <div class="imgText">
-                                <img src="" alt="">
-                                <p></p>
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                                <p>David E.</p>
                             </div>
                            </div>
-
-                           <div class="testimony_Box2_Slide Box">
-                            <p></p>
-                            <div class="imgText">
-                                <img src="" alt="">
-                                <p></p>
-                            </div>
                            </div>
 
-                           <div class="testimony_Box2_Slide Box">
-                            <p></p>
-                            <div class="imgText">
-                                <img src="" alt="">
-                                <p></p>
-                            </div>
-                           </div>
-
-                           <div class="testimony_Box2_Slide Box">
-                            <p></p>
-                            <div class="imgText">
-                                <img src="" alt="">
-                                <p></p>
-                            </div>
-                           </div>
-
+                      <i class="fa fa-chevron-right" aria-hidden="true"></i>
                         </div>
                     </div>
                 </div>
@@ -291,7 +407,7 @@
 
       
 
-  <footer>
+  <footer id="conatct">
     <div class="foot_Wrap genlayout">
          <div class="foot_Content_1">
         <h1>Noark <span>Homes</span></h1>
@@ -310,6 +426,8 @@
         </div>
 
          <div class="footLine"></div>
+         <div class="foot_Wrapper">
+
         <div class="foot_Links">
             <h3>quicks links</h3>
 
@@ -367,6 +485,7 @@
                 <p>sunday</p>
                 <p>closed</p>
             </div>
+        </div>
         </div>
 
     </div>
